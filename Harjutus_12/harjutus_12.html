@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vormid HTML'is'</title>
+    <meta name = "description" content = "Õpime veebitehnoloogiat" />
+    <meta name = "keywords" content = "HTML5, CSS3, HTML, CSS" />
+    <meta name = "author" content = "Merilyn Merisalu" />
+    <meta charset = "UTF-8"/>
+</head>
+<body>
+    <h1>Registreeru</h1>
+    
+    <form action = "#" method = "post" autocomplete >
+        <fieldset>
+        <legend>Kohustuslik info</legend>
+            <label>Kasutajanimi </label><br /> 
+            <input name = "kasutajanimi" type = "text" 
+                placeholder = "Sisesta soovitav kasutajanimi" maxlength = "6"><br />
+            <label>Parool</label><br />
+            <input name = "parool" type = "password" 
+                placeholder = "Vähemalt 8 tähemärki" minlength = "8" required><br />
+            <label>E-kiri</label><br />
+            <input name = "ekiri" type = "email" 
+            placeholder = "Registeerumise kinnitamiseks" required>
+        </fieldset>
+        <fieldset>
+            <legend>Lisa info</legend>
+            <label>Veebikas</label><br />
+            <input name = "www" type = "url" autofocus 
+            placeholder = "http protokoll nõutav"><br />
+        </fieldset>
+        <input value = "Tühjenda väljad" type = "reset" name = "clr">
+        <input value = "Registreeru" type = "submit" name = "reg">
+    </form>
+</body>
+</html>
