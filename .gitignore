@@ -1,5 +1,55 @@
+<<<<<<< HEAD
+=======
+ Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# WebStorm
+*.iml
+
+>>>>>>> 1b5cd6f494ec48cc8e88e97f1489eb62a000a571
 # Directory-based project format:
 .idea/
 .idea/workspace.xml
 **/.idea/workspace.xml
+
+<<<<<<< HEAD
+=======
+# mac hidden files
+.DS_Store
+
+##other
+#node_modules/
+#bower_components/
+.tmp
+#.sass-cache
+#builds/**/images/*
+#*.ogg
+#*.mp3
+#*.mp4
+#*.png
+#*.jpeg
+*.psd
+>>>>>>> 1b5cd6f494ec48cc8e88e97f1489eb62a000a571
 
