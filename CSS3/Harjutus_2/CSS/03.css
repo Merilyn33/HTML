@@ -16,9 +16,9 @@ h1 {
     text-shadow:4px 5px 2px #000; 4px 5px 2px #ED0004;
 } */
 
-h1 {
+/*h1 neon valguse efekt {
     
-    font-size: 72px; text-transform: uppercase;
+  font-size: 72px; text-transform: uppercase;
   font-family: Arial;
   color: #fff;
   background-color:#000;
@@ -34,6 +34,44 @@ h1 {
       0 0 100px #ff00de,
       0 0 150px #ff00de;
             
+   } */
+   /* Pealkiri h1 kallutatud servaga
+   h1 {
+   
+  font-size: 72px; text-transform: uppercase;
+  font-family: Arial;
+  color: #222;
+  background-color:#474747;
+  width: 500px;
+  height: 80px;
+  padding: 40px;
+  text-shadow: 0px 2px 3px #666;
+   } */
+   
+  /* Pealkiri h1 kõrgendatud servaga  
+   h1 {
+   
+   font-size:72px; text-transform: uppercase;
+   font-family: Arial;
+   color: #ccc;
+   background-color:#ccc;
+   width: 500px;
+   height: 80px;
+   padding: 40px;
+   text-shadow:-1px -1px white, 1px 1px #333;
+   }
+   
+   */
+   
+   #yks{
+    
+    color:#c00;
+    -webkit-text-storke: 1px #000;
+   }
+   
+   #kaks {
+   -webkit-text-storke: 1px #000;
+   -webkit-text-fill-color: transparent;
    }
             
 p {
